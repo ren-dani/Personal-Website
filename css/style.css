@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@500;700&family=Inter&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* 
+font-family: 'Fraunces', serif;
+font-family: 'Inter', sans-serif; */
+:root {
+    /* COLORS */
+    --navy : #243763;
+    --orange: #FF6E31;
+    --cream: #FFEBB7;
+    --brown: #AD8E70;
+
+}
+body {
+    font-size: 16px;
+}
+.hero {
+    height: 92vh;
+    background-color: var(--navy);
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+	justify-content: center;
+}
+ .hero h1 {
+    font-size: 2em;
+    text-align: center;
+    color: var(--cream);
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+}
+.name, .background {
+    color: var(--orange); 
+    font-weight: 500;
+}
+
+.computer img{
+    display: block;
+    
+} 
+.illustrations .computer {
+    height: 200px;
+}
+.code1, .code2, .code3 {
+    height: 20px;
+}
