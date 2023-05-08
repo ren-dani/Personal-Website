@@ -16,8 +16,17 @@ font-family: 'Inter', sans-serif; */
 
 }
 body {
-    font-size: 16px;
+    font-size: 14px;
+    text-align: center;
 }
+p{
+    font-family: 'Inter', sans-serif; 
+    font-weight: 700;
+}
+h1, h2, h3 {
+    font-family: 'Fraunces', serif;
+}
+/* HERO SECTION */
 .hero {
     height: 92vh;
     background-color: var(--navy);
@@ -28,9 +37,8 @@ body {
 }
  .hero h1 {
     font-size: 2em;
-    text-align: center;
+    
     color: var(--cream);
-    font-family: 'Fraunces', serif;
     font-weight: 700;
 }
 .name, .background {
@@ -47,4 +55,38 @@ body {
 }
 .code1, .code2, .code3 {
     height: 20px;
+}
+
+/* SKILLS SECTION */
+
+.my-skills{
+    background: var(--cream);
+    padding: 3rem 2rem 0 2rem;
+    color: var(--navy);
+}
+
+.my-skills h2{
+    padding-bottom: 2.5rem;
+    font-size: 2em;
+    color: var(--orange);
+    opacity: .7;
+}
+.skills-list h3 {
+    padding-top: 1rem;
+    font-size: 1.5em;
+}
+.skills-list p {
+    padding: 1rem 0;
+    opacity: .7;
+}
+.my-skills .icon {
+    opacity: .7;
+}
+ img{
+    display: block;
+    max-width: 100%;
+}
+.my-skills .icon {
+    opacity: .7;
+    display: inline;
 }
