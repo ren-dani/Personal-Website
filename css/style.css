@@ -192,3 +192,20 @@ textarea {
         height: 200px;
     }
  }
+
+ @media (min-width: 1004px) {
+    .hero {
+        justify-content: space-around;
+        gap: 0;
+    }
+    .hero h1 {
+        font-size: 3em;
+    }
+    .illustrations .computer {
+        height: 300px;
+    }
+    .project-screenshots{
+        display: flex;    
+        gap: 2rem;    
+    }
+ }
