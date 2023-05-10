@@ -23,7 +23,7 @@ p{
     font-family: 'Inter', sans-serif; 
     font-weight: 700;
 }
-h1, h2, h3 {
+h1, h2, h3 , h4{
     font-family: 'Fraunces', serif;
 }
 /* HERO SECTION */
@@ -89,4 +89,20 @@ h1, h2, h3 {
 .my-skills .icon {
     opacity: .7;
     display: inline;
+}
+
+/* MY PROJECTS */
+.projects {
+    padding: 4rem;
+}
+.projects h3{
+    color: var(--brown);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    opacity: .8;
+}
+.project-screenshots h4{
+    padding: 2rem 0 1rem 0;
+    color: var(--navy);
+    letter-spacing: 1px;;
 }
