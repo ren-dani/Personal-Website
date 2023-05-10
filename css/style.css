@@ -58,8 +58,9 @@ h1, h2, h3 , h4{
 
 .my-skills{
     background: var(--cream);
-    padding: 3rem 2rem 0 2rem;
+    padding: 3rem 2rem 2rem 2rem;
     color: var(--navy);
+
 }
 
 .my-skills h2{
@@ -164,4 +165,30 @@ textarea {
     text-decoration: none;
     color: var(--cream);
    
+ }
+
+ /* Media Queries */
+ @media (min-width: 425px) {
+    .skills-list p {
+        padding: 1rem 2rem;
+    }
+ }
+
+ @media (min-width: 768px) {
+    p{
+        line-height: 1.5;
+    }
+    .hero {
+        flex-direction: row;
+        gap: 5rem;
+    }
+    .skills-list {
+        display: flex;
+    }
+    .skills-list  p {
+        padding: 1rem;
+    }
+    .about .icon {
+        height: 200px;
+    }
  }
