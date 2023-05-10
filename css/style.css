@@ -19,7 +19,7 @@ body {
     font-size: 14px;
     text-align: center;
 }
-p{
+p, a{
     font-family: 'Inter', sans-serif; 
     font-weight: 700;
 }
@@ -53,9 +53,6 @@ h1, h2, h3 , h4{
 .illustrations .computer {
     height: 200px;
 }
-.code1, .code2, .code3 {
-    height: 20px;
-}
 
 /* SKILLS SECTION */
 
@@ -86,7 +83,7 @@ h1, h2, h3 , h4{
     display: block;
     max-width: 100%;
 }
-.my-skills .icon {
+ .icon {
     opacity: .7;
     display: inline;
 }
@@ -106,3 +103,65 @@ h1, h2, h3 , h4{
     color: var(--navy);
     letter-spacing: 1px;;
 }
+
+/* ABOUT ME */
+.about {
+    background: var(--navy);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	justify-content: center;
+    height: 92vh;
+    gap: 2rem;
+    color: var(--orange);
+}
+ .about p {
+    font-size: 1.2em;
+ }
+
+ /* contact me */
+.contact-me {
+    background: var(--cream);
+    padding: 2rem;
+    color: var(--navy);
+}
+textarea {
+    border: 2px solid var(--orange);
+    border-radius: 5px;
+    padding: .5rem;
+    margin: 2rem;
+    color: var(--navy);
+}
+ .submit {
+    margin: 1rem;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    background: var(--navy);
+    color: var(--orange);
+    border: none;
+    font-weight: 700;
+    text-decoration: none;
+ }
+
+ .submit:hover {
+    background: var(--orange);
+    color: var(--navy);
+ }
+ nav{
+    position: absolute;
+    top: 2rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
+ .nav-items {
+    display: flex;
+ }
+ .nav-items li{
+    list-style: none;
+    padding: 1rem;
+ }
+ .nav-items li a {
+    text-decoration: none;
+    color: var(--cream);
+   
+ }
